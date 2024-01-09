@@ -1,0 +1,202 @@
+.navbarBG2 {
+  position: fixed;
+  padding: 1.5rem 0px !important;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  background: white;
+}
+.navbarScroll2 {
+  position: fixed !important;
+  padding: 1rem 0px !important;
+  z-index: 9999;
+  width: 100%;
+  background: white;
+}
+.navbar2 .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 230px;
+  top: 2rem;
+
+  background-color: white;
+  color: #454c5e !important;
+  z-index: 1;
+}
+
+.navbar2 .nav-link {
+  color: #454c5e !important;
+  font-size: 18px;
+  font-family: Gilroy-Bold;
+  padding: 25px 10px !important;
+  cursor: pointer;
+  transition: all 0.5s ease-out !important;
+}
+.navbar2 .nav-link:hover {
+  color: #ff57a4 !important;
+}
+.nav-item:hover > .dropdown .dropdown-content {
+  display: block;
+  transition: all 0.5s ease-in !important;
+}
+
+.dropdown .nav-link {
+  width: 100% !important;
+
+  font-size: 15px;
+  padding-left: 20px !important;
+  padding: 15px !important;
+  color: #454c5e !important;
+  transition: all 0.5 ease-out !important;
+}
+
+.navbar2 .navbar-toggler-icon {
+  color: #ff57a4 !important;
+  background-image: none !important;
+}
+.navbar-toggler {
+  border: 0 !important;
+}
+.navbar-toggler:focus {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.collapsing {
+  transition: 1s !important;
+}
+
+.navbar2Menu {
+  font-size: 2rem;
+  font-weight: lighter !important;
+}
+.navbar2 .dropdown .nav-link:hover {
+  color: white !important;
+}
+
+/* //side bar */
+
+.side-menu__block.active {
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+
+.sidebar {
+  position: fixed;
+  overflow-y: auto;
+  background-color: white;
+  max-width: 532px;
+  top: 0;
+  opacity: 0;
+  bottom: 0;
+  left: -35rem;
+  min-height: 100vh !important;
+  z-index: 100;
+  transition: all 1s ease-out;
+}
+.active {
+  opacity: 1;
+  left: 0;
+  transition: all 1s ease-in;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar2 .nav-link {
+    padding: 0px !important;
+  }
+  .navbar2 .dropdown .nav-link {
+    padding: 15px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown-content {
+    top: 2rem;
+  }
+  .navbar2.navbarScroll2 .dropdown .nav-link {
+    padding: 10px 15px !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .active {
+    opacity: 1;
+    /* left: -6rem; */
+    max-width: 332px !important;
+    text-align: start !important;
+    justify-content: start !important;
+    transition: all 1s ease-in;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dedef1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6c6c6f;
+}
+
+.sidebar .nav-link {
+  padding: 5px 0px !important;
+}
+
+.btnClose {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+.side-menu__social {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.side-menu__social .fab {
+  color: white;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.side-menu__social .fa-facebook-f {
+  background-image: linear-gradient(
+    90deg,
+    #0349a6 0%,
+    #15c27b 51%,
+    #0349a6 100%
+  );
+}
+.side-menu__social .fa-instagram {
+  background-image: linear-gradient(
+    90deg,
+    #4a0e8f 0%,
+    #b430a7 51%,
+    #4a0e8f 100%
+  );
+}
+.side-menu__social .fa-twitter {
+  background-image: linear-gradient(
+    90deg,
+    #4453ac 0%,
+    #03a9db 51%,
+    #4453ac 100%
+  );
+}
+.side-menu__social .fa-pinterest-p {
+  background-image: linear-gradient(
+    90deg,
+    #e41256 0%,
+    #ffa337 51%,
+    #e41256 100%
+  );
+}

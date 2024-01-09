@@ -1,0 +1,242 @@
+.service1Box {
+  height: 100%;
+  width: 300px;
+  overflow: hidden;
+  color: #42495b;
+  background: rgb(254, 234, 244);
+  cursor: pointer;
+  position: relative;
+}
+.service1Box > .content {
+  position: relative;
+}
+.service01BgBox .container {
+  color: white;
+  position: relative;
+  text-align: center;
+}
+.service01Link_Arrow {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #ff57a4;
+  color: white;
+}
+
+.service1Box:hover {
+  transition: all 0.5s ease;
+  color: white;
+}
+.service1Box:hover .cp {
+  color: white !important;
+}
+.service1Box:hover .service01Link_Arrow {
+  color: #ff57a4;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+
+.service1Box > .page-header {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.service1Box:hover > .page-header {
+  opacity: 1;
+  left: 0;
+  transition: all 0.5s ease;
+}
+
+.service1Box > .page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    90deg,
+    rgba(75, 40, 196, 0.9) 0%,
+    rgba(139, 63, 174, 0.9) 100%
+  );
+  transition: all 0.5s ease;
+}
+.services {
+  height: 870px;
+}
+.sBox {
+  position: absolute;
+}
+
+.sBox2 {
+  right: -3rem;
+  top: 2rem;
+}
+.sBox3 {
+  bottom: 2rem;
+}
+.sBox4 {
+  bottom: 0;
+  right: -3rem;
+}
+@media screen and (max-width: 1024px) {
+  .sBox2,
+  .sBox4 {
+    right: 0;
+  }
+  .sBox1,
+  .sBox3 {
+    left: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sBox1,
+  .sBox3 {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .services {
+    height: 100%;
+  }
+  .service1Box {
+    width: 100%;
+  }
+  .sBox {
+    position: initial;
+    margin-bottom: 2rem;
+  }
+}
+.cta-eleven {
+  background-image: linear-gradient(90deg, #4b28c4 0%, #8b3fae 100%);
+  position: relative;
+  height: 600px;
+}
+.cta-eleven::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../assets/service01/cta-map-1-1.png);
+  background-position: center center;
+}
+.ctashape3,
+.ctashape1,
+.ctashape2,
+.ctaContent {
+  position: absolute;
+}
+.ctashape1 {
+  top: 10%;
+  right: 20%;
+}
+.ctashape2 {
+  left: 5%;
+  bottom: 0;
+}
+.ctashape3 {
+  right: 10%;
+  bottom: 5%;
+}
+@media screen and (max-width: 768px) {
+  .ctashape3,
+  .ctashape1,
+  .ctashape2 {
+    display: none;
+  }
+}
+.ctaContent {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.dropdown-menu {
+  position: static !important;
+  padding-top: 0 !important;
+  border: 0 !important;
+  transform: none !important;
+}
+.dropdownButton.show {
+  color: #ff57a4 !important;
+}
+.dropdownButton.show > .fa-angle-right {
+  transform: rotate(90deg);
+  transition: all 1s ease !important;
+}
+
+.swiperService > .swiper-pagination {
+  top: 97% !important;
+}
+.swiperService .swiper-pagination-bullet {
+  opacity: 1 !important;
+  padding: 0px 5px !important;
+  background-color: #ff57a4 !important;
+}
+.swiperService .swiper-pagination-bullet-active {
+  padding: 0px 20px !important;
+}
+.swiperService .swiper-pagination-bullet:hover {
+  transition: all 1s ease-in;
+  padding: 0px 20px !important;
+}
+.projectSwiperTop .btnReadMore {
+  font-size: 15px !important;
+
+  font-weight: 600 !important;
+  letter-spacing: -0.03em !important;
+  text-transform: capitalize;
+  padding: 17px 30px !important;
+}
+.caseSwiper {
+  position: relative;
+}
+
+.caseSwiper .CaseCardBody {
+  background-image: linear-gradient(
+    0deg,
+    rgba(75, 40, 196, 1) 0%,
+    rgba(31, 50, 82, 0) 100%
+  );
+}
+.CaseCardBody {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: flex-end;
+
+  background: linear-gradient(
+    0deg,
+    rgba(31, 50, 82, 1) 0%,
+    rgba(31, 50, 82, 0) 100%
+  );
+  text-align: center;
+  padding-bottom: 40px;
+}

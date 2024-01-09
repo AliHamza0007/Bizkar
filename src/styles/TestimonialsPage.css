@@ -1,0 +1,23 @@
+.testimonialsPage > .cta-eleven {
+  height: 1000px !important;
+}
+@media screen and (max-width: 425px) {
+  .testimonialsPage > .cta-eleven {
+    display: none !important;
+  }
+}
+.swiperTestimonials > .swiper-pagination {
+  top: 96% !important;
+}
+.swiperTestimonials .swiper-pagination-bullet {
+  opacity: 1 !important;
+  padding: 0px 5px !important;
+  background-color: #fd7506 !important;
+}
+.swiperTestimonials .swiper-pagination-bullet-active {
+  padding: 0px 20px !important;
+}
+.swiperTestimonials .swiper-pagination-bullet:hover {
+  transition: all 1s ease-in;
+  padding: 0px 20px !important;
+}

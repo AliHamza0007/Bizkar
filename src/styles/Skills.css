@@ -1,0 +1,38 @@
+.progress1 {
+  left: -10rem !important;
+  height: 100%;
+  width: 100% !important;
+}
+.barHead1 {
+  width: 95%;
+}
+.barHead2 {
+  width: 87%;
+}
+.barHead3 {
+  width: 63%;
+}
+.barHead4 {
+  width: 55%;
+}
+.bar1 {
+  background: #3f02a8 !important;
+}
+.bar2 {
+  background: #ff57a4 !important;
+}
+.bar3 {
+  background: #00c8b3 !important;
+}
+.bar4 {
+  background: #ff9b0d !important;
+}
+@media screen and (max-width: 425px) {
+  .progress1 {
+    position: relative !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 80% !important;
+    margin-bottom: 20rem;
+  }
+}

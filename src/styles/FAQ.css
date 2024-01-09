@@ -1,0 +1,60 @@
+.accordion-button {
+  outline: none !important;
+  box-shadow: none !important;
+  color: #ff57a4 !important;
+
+  border-color: #edf0ff !important;
+  background-color: #edf0ff !important;
+}
+.accordion-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.FaqPage .dropdownButton {
+  color: #42495b !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background: white !important;
+  padding: 20px 30px;
+  border: 2px solid #edf0ff !important;
+}
+.FaqPage .dropdownButton.show {
+  border-color: #edf0ff !important;
+  background-color: #edf0ff !important;
+}
+.FaqPage .dropdown-menu {
+  position: relative !important;
+  animation: topDown;
+  animation-duration: 2s;
+  top: 0;
+  padding-top: 0 !important;
+  border: 0 !important;
+  transform: none !important;
+  color: #42495b !important;
+  border-color: #edf0ff !important;
+  background-color: #edf0ff !important;
+  line-height: 2rem !important;
+  padding: 20px 30px;
+  transition: all 1s ease;
+}
+@keyframes topDown {
+  0% {
+    position: absolute;
+    top: -20px;
+  }
+  100% {
+    position: absolute;
+    top: 0;
+  }
+}
+.dropdownButton.show {
+  color: #ff57a4 !important;
+}
+.dropdownButton[aria-expanded="true"] .fa-eye {
+  display: none;
+  transition: 1s;
+}
+.dropdownButton[aria-expanded="false"] .fa-eye-slash {
+  display: none;
+  transition: 1s;
+}

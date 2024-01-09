@@ -1,0 +1,54 @@
+.projectCardBody {
+  background-color: #fff !important;
+  box-shadow: 0px 16px 32px 0px rgba(205, 205, 205, 0.56) !important;
+  position: absolute;
+  left: 50%;
+  bottom: -3rem;
+  width: 87%;
+  z-index: 1;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.5s ease-out;
+}
+.swiperProject > img {
+  width: 100%;
+}
+.swiperProject:hover > .projectCardBody {
+  opacity: 1;
+  bottom: -5rem;
+  transition: all 0.5s ease-in;
+}
+.iconProjectDiv {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 19px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  transition: all 500ms ease-out;
+}
+.cardProject:hover > .iconProjectDiv {
+  transform: scale(1.1) rotate(20deg);
+  transition: all 500ms ease-in;
+}
+.IconCard1 {
+  background-color: #5966ff;
+}
+.IconCard2 {
+  background-color: #ff984c;
+}
+.IconCard3 {
+  background-color: #e43683;
+}
+.IconCard4 {
+  background-color: #2ea966;
+}

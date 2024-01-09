@@ -1,0 +1,43 @@
+.swiperBlog > .swiper-pagination {
+  height: 10px !important;
+  text-align: start;
+  top: -10rem !important;
+  overflow: visible !important;
+  z-index: 9999 !important;
+}
+.swiperBlogSlide > img {
+  transition: all 0.5s ease-out;
+}
+
+.swiper-slide:hover > .swiperBlogSlide > img {
+  opacity: 0.6;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in;
+}
+.userBlog {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.ch:hover {
+  cursor: pointer;
+  color: #ff57a4 !important;
+}
+.buttonSwiper {
+  background-color: #d7dafb !important;
+  color: #42495b;
+}
+.buttonSwiper:hover {
+  background-color: #ff57a4 !important;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .swiperBlog > .swiper-pagination {
+    top: -14rem !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .swiperBlog > .swiper-pagination {
+    display: none !important;
+  }
+}

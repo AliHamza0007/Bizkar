@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url("./assets/font/gilroy-bold-cufonfonts/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: Gilroy-light;
+  src: url("./assets/font/gilroy-bold-cufonfonts/Gilroy-Light.ttf");
+}
+.font-b {
+  font-family: Gilroy-Bold !important;
+}
+.font-l {
+  font-family: Gilroy-light !important;
+}
+.cp {
+  color: #ff57a4 !important;
+}
+.cb {
+  color: #567af3 !important;
+}
+.cg {
+  color: #42495b !important;
+}
+.cr {
+  color: #f14b59 !important;
+}
+.cgt {
+  color: #7e8aa7 !important;
+}
+.hd:hover {
+  color: #42495b !important;
+}
+.hp:hover {
+  cursor: pointer;
+  color: #ff57a4 !important;
+}
+.hw:hover {
+  cursor: pointer;
+  color: white !important;
+}
+.co {
+  color: #fd7506 !important;
+}
+
+.scroll-to-top {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  background: #4275ff;
+  color: white;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-decoration: none;
+  z-index: 2;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+}
+
+.scroll-to-top:hover {
+  background: #697186;
+
+  transition: all 0.4s ease;
+}
+.Ls {
+  letter-spacing: 2px;
+}
+.small {
+  font-size: 14px !important;
+}
+Link {
+  text-decoration: none !important;
+}
+.dropdown-content{
+
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+}

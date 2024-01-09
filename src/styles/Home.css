@@ -1,0 +1,128 @@
+.banner1 {
+  background-repeat: no-repeat;
+  background-position: top left;
+  z-index: 1;
+}
+.homeContent {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+.homeImg1 {
+  position: absolute;
+  top: 30%;
+  right: -13rem;
+  z-index: 1;
+  animation: ImgBounce 5s ease-in-out 0s infinite alternate;
+}
+.btnDiscoverNow {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+
+  transition: all 0.4s ease;
+
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 15px 26.5px;
+}
+.btnDiscoverNow:hover {
+  background: white;
+  color: #6c6c6f !important;
+  transition: all 0.4s ease;
+}
+.hFB {
+  font-size: 6rem;
+}
+@media screen and (min-width: 2500px) {
+  .banner1 {
+    width: 100%;
+  }
+  .homeImg1 {
+    right: 20rem;
+    top: 20%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .homeImg1 {
+    right: -30rem;
+    top: 20%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .homeContent {
+    top: 15%;
+  }
+  .homeImg1 {
+    height: 400px;
+    top: 55%;
+    right: 0;
+    animation: ImgBounce1 5s ease-in-out 0s infinite alternate;
+  }
+}
+@media screen and (max-width: 425px) {
+  .banner1 {
+    height: 900px;
+  }
+  .homeContent {
+    left: 3% !important;
+  }
+  .hFB {
+    font-size: 3rem !important;
+  }
+}
+/* //Why Like Us Page Css */
+
+.bggray {
+  background: #ffeef6;
+}
+
+.WLU_Heading {
+  color: #42495b;
+  font-weight: bolder;
+  font-size: 54.4px !important;
+}
+.swipertext {
+  line-height: 2rem;
+  font-size: 1rem;
+  color: #7e8aa7 !important;
+}
+.service {
+  transition: all 0.5s ease-out;
+}
+.swiper-slide:hover .service {
+  transform: rotate(30deg);
+  transition: all 0.5s ease-in;
+}
+
+.swiper-pagination {
+  top: -3% !important;
+  z-index: 100 !important;
+  overflow: visible !important;
+}
+.swiper-pagination-bullet {
+  cursor: pointer;
+  border-radius: 0 !important;
+  padding: 0 20px;
+  background: #7b86f1 !important;
+  transition: all 1s ease-out;
+}
+.swiper-pagination-bullet-active {
+  background: #ff57a4 !important;
+  padding: 0 40px;
+  transition: all 1s ease-in;
+}
+@media screen and (max-width: 768px) {
+  .WLU_Heading {
+    font-size: 30px !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .WLU_Heading {
+    font-size: 20px !important;
+  }
+}

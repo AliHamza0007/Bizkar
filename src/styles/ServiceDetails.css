@@ -1,0 +1,151 @@
+.serviceDetailImg1,
+.serviceDetailImg1 {
+  position: absolute;
+}
+.serviceDetailImg1 {
+  left: -10rem;
+}
+.serviceDetailImg2 {
+  right: -10rem;
+}
+.serviceDetailHeading {
+  margin: 0;
+  font-size: 55px;
+  letter-spacing: -0.03em;
+  line-height: 1em;
+  margin-bottom: 30px;
+}
+.bLink {
+  border-bottom: 2px solid;
+}
+.serviceList li {
+  position: relative;
+  padding-left: 35px;
+}
+.serviceList li::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  border: 3px solid #ff57a4;
+  position: absolute;
+  left: 0;
+  top: 15%;
+}
+
+.serviceDetailsbg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative !important;
+  padding-top: 347.5px;
+  padding-bottom: 347.5px;
+  height: 900px;
+}
+.serviceDetailsbg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #42495b;
+  opacity: 0.6;
+}
+.serviceDetailsbg .VedioPlayIcon {
+  width: 130px;
+  height: 130px;
+}
+.projectSwiperBox {
+  position: absolute;
+  background: white;
+  width: 90%;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: -20rem;
+}
+.projectSwiperBox .swiper {
+  padding: 0px !important;
+}
+@media screen and (max-width: 1024px) {
+  .serviceDetailImg1 {
+    position: static !important;
+    height: 100%;
+  }
+  .serviceDetailImg2 {
+    position: static !important;
+    height: 100%;
+  }
+  .serviceDetailHeading {
+    font-size: 5vh;
+  }
+}
+
+/* //pricing nav style */
+.pricingNav {
+  background: #f5f7ff;
+  border-radius: 24px !important;
+  padding: 8px;
+  border: transparent;
+}
+.pricingNav .nav-link {
+  border: transparent;
+  text-decoration: none;
+  padding: 15px 35px !important;
+  color: #42495b !important;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 24px !important;
+  transition: 500ms;
+}
+.pricingNav .nav-link:hover {
+  background-color: #ff57a4;
+  color: #fff !important;
+}
+.pricingNav .nav-item.active > .nav-link {
+  background-color: #ff57a4;
+  color: #fff !important;
+}
+.corner-ribbon {
+  width: 200px;
+  background: #ff57a4;
+
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+  position: absolute;
+  top: 10px;
+  right: -55px;
+  left: auto;
+  transform: rotate(45deg);
+  text-align: center;
+  line-height: 70px;
+  color: #ffffff;
+}
+.bgColor {
+  background-color: rgb(250, 238, 244);
+}
+.choosePlanBtn {
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  outline: none;
+  background-color: rgb(241, 207, 223);
+  color: #fff;
+  border-radius: 35px;
+  padding: 20px 46.5px;
+  color: #42495b;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  border-radius: 27.5px;
+  transition: all 0.4s ease;
+}
+.choosePlanBtn:hover {
+  background-color: #42495b;
+
+  color: white;
+  transition: all 0.4s ease;
+}

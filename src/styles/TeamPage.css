@@ -1,0 +1,9 @@
+.TeamPage .brandImg {
+  opacity: 0.3;
+  filter: invert(50%);
+}
+
+.TeamPage .brandImg:hover {
+  opacity: 1;
+  filter: invert(50%);
+}

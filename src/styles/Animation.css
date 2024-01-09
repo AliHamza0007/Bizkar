@@ -1,0 +1,72 @@
+@keyframes dropdownNavLink {
+  0% {
+    top: 7rem;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 4rem;
+  }
+}
+@keyframes ImgBounce {
+  0% {
+    top: 30%;
+  }
+  100% {
+    top: 25%;
+  }
+}
+@keyframes ImgBounce1 {
+  0% {
+    top: 55%;
+  }
+  100% {
+    top: 60%;
+  }
+}
+@keyframes ImgBounc {
+  0% {
+    top: -5rem;
+  }
+  100% {
+    top: 0;
+  }
+}
+@keyframes ImgBounc1 {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 5%;
+  }
+}
+@keyframes socialIcondown {
+  0% {
+    position: absolute;
+    top: 0;
+  }
+  100% {
+    position: absolute;
+    top: 2rem !important;
+  }
+}
+
+.dropdown > .fadeup {
+  animation: dropdownNavLink 0.5s ease-in;
+}
+.tab-pane.active {
+  animation: fade_Up;
+  animation-duration: 1s;
+}
+@keyframes fade_Up {
+  0% {
+    position: relative;
+    top: 20px;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    top: 0;
+    opacity: 1;
+  }
+}

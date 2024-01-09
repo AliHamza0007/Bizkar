@@ -1,0 +1,47 @@
+.iconFooterAbout {
+  color: #8fa9d6 !important;
+}
+.footerSocialsAbout > .iconFooterAbout :hover {
+  color: white !important;
+  transition: all 0.5s ease;
+}
+.footer2 {
+  background: #1f3252;
+  color: #8fa9d6 !important;
+}
+.fc {
+  color: #8fa9d6 !important;
+}
+.leftImgF {
+  position: absolute;
+  height: 100%;
+  left: 0;
+}
+.rightImgF {
+  position: absolute;
+  height: 100%;
+  right: 0;
+}
+
+.qLink {
+  padding: 10px 0px;
+  color: #8fa9d6 !important;
+}
+.qLink:hover {
+  color: #ff57a4 !important;
+  transition: all 0.5s ease;
+}
+.fT {
+  color: #ff57a4 !important;
+}
+.footerDetail:hover > .fT {
+  color: white !important;
+  transition: all 0.5s ease;
+}
+.footerDetail:hover > .fnT {
+  color: #ff57a4 !important;
+  transition: all 0.5s ease;
+}
+.footer2About > .footerform {
+  border: 1px solid #8fa9d6 !important;
+}
