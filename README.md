@@ -5,7 +5,7 @@ This project is a React.js implementation of the Bizkar template. The website sh
 
 ## Live Demo
 
-Explore the live demo of the Bizkar React website: [Bizkar React Demo]([https://bizkar-production.onrender.com/])
+Explore the live demo of the Bizkar React website: https://bizkar-production.onrender.com/
 
 ## Features
 
